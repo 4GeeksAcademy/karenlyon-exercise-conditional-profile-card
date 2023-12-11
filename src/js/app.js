@@ -36,10 +36,8 @@ function render(variables = {}) {
   if (variables.role == null) variables.role = "";
   if (variables.city == null) variables.city = "";
   if (variables.country == null) variables.country = "";
-  if (variables.socialMediaPosition == right)
-    variables.socialMediaPosition = "<ul class='position-right'></ul>";
   if (variables.twitter == null) variables.twitter = "";
-  if (variables.githun == null) variables.github = "";
+  if (variables.github == null) variables.github = "";
   if (variables.linkedin == null) variables.linkedin = "";
   if (variables.instagram == null) variables.instagram = "";
   // reset the website body with the new html output
